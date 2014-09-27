@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Pop-up html page to display link summary">
+    <meta name="author" content="Pratikkumar Patel">
+    
+    <title>Page Summerizer Extension</title>
+    
+    <!-- Scripts: Bootstrap, jQuery and Popup javascrpt -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popup.js"></script>
+    
+    <!-- Cascading Style Sheets: Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  
+  <body style="min-width:300px;">
+
+    <!-- Extension Custom Setting Panel -->
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Page Summarizer Setting</h3>
+      </div>
+      
+      <div class="panel-body">
+  
+        <!-- Checkbox input to Show/Hide TItle of the Linked Page in the summary -->
+        <input class="optionInput" type="checkbox" id="titleDisplay" value="titleDisplay" />
+        <label for="titleDisplay">Display Title of the Link</label><br/>
+        
+        <!-- Checkbox input to Show/Hide Image of the Linked Page in the summary -->
+        <input class="optionInput" type="checkbox" id="imgDisplay" value="imgDisplay" />
+        <label for="imgDisplay">Display image from the linked page</label><br/>
+
+        <!-- Checkbox input to Show/Hide Paragraph of the Linked Page in the summary -->
+        <input class="optionInput" type="checkbox" id="paragraphSummary" value="paragraphSummary" />
+        <label for="paragraphSummary">Short summary of the page</label>
+
+      </div>
+    </div>  
+  </body>
+</html>
